@@ -1,4 +1,5 @@
 import styles from "./WelcomePage.module.scss";
+import {Link} from "react-router-dom";
 
 export function WelcomePage() {
   return (
@@ -10,7 +11,7 @@ export function WelcomePage() {
         </h1>
         <h2>Студента групи ІM-13 Первєєва Євгенія Олексійовича</h2>
       </div>
-      <button>ДО ЛАБОРАТОРНИХ</button>
+      <Link to="/main"><button>ДО ЛАБОРАТОРНИХ</button></Link>
     </main>
   );
 }
