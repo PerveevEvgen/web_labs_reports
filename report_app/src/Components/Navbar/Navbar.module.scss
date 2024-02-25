@@ -1,45 +1,29 @@
-:root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-      color: #213547;
-      background-color: #ffffff;
-  }
-
-  .navbar_container {
-    display: flex;
-    border: 1px solid #213547;
-    border-radius: 7px;
-    padding: 5px;
-    justify-content: space-between;
-    .logo_wrapper {
-        width: 150px;
-        img {
-            width: 100px;
-        }
+.navbar_container {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #213547;
+  background-color: #ffffff;
+  border: 1px solid #213547;
+  border-radius: 7px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 900px;
+  min-width: 525px;
+  padding: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.navbar_element {
+  width: 80px;
+  height: 50px;
+  border: 1px solid #213547;
+  border-radius: 7px;
+  cursor: pointer;
+  text-align: center;
+  padding: 2%;
+    &:hover{
+      background-color: #bdbdbd;
     }
-
-    .main_content_wrapper{
-        width: 700px;
-    }
-
-  }
-  h1 {
-    font-size: large;
-  }
-  h2 {
-    font-size: medium;
-  }
-
-@media screen and (max-width: 576px) {
-    h1 {
-        font-size: 13px;
-      }
-      h2 {
-        font-size: 10px;
-      }
-      .logo_wrapper{
-        width: 100px;
-      }
-
 }

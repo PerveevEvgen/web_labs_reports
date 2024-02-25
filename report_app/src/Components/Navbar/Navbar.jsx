@@ -3,13 +3,15 @@ import styles from "./Navbar.module.scss";
 export const Navbar = () => {
     return (
         <div className={styles.navbar_container}>
-            <div className={styles.logo_wrapper}>
-                <img src="./../src/assets/kpi-symbol.png" alt="kpi_logo" />
-            </div>
-            <div className={styles.main_content_wrapper}>
-                <h1>ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ З ДИСЦИПЛІНИ &quot;ІНТЕРНЕТ-ТЕХНОЛОГІЇ ТАПРОЕКТУВАННЯ WEB-ЗАСТОСУВАНЬ&quot;</h1>
-                <h2>Студента групи ІM-13 Первєєва Євгенія Олексійовича</h2>
-            </div>
+           <div className={styles.navbar_element}>Лаба №1</div>
+           <div className={styles.navbar_element}>Лаба №2</div>
+           <div className={styles.navbar_element}>Лаба №3</div>
+           <div className={styles.navbar_element}>Лаба №4</div>
+           <div className={styles.navbar_element}>Лаба №5</div>
+           <div className={styles.navbar_element}>Лаба №6</div>
+           <div className={styles.navbar_element}>Лаба №7</div>
+           <div className={styles.navbar_element}>Лаба №8</div>
+           <div className={styles.navbar_element}>Лаба №9</div>
         </div>
     )
 
